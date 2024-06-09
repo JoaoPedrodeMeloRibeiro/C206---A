@@ -8,22 +8,22 @@ public class Instagram extends RedeSocial {
 
     @Override
     public void postarFoto() {
-
+         System.out.println("Uma foto foi postado no Instagram");        
     }
 
     @Override
     public void postarVideo() {
-
+         System.out.println("Uma video foi postado no Instagram");
     }
 
     @Override
     public void postarComentario() {
-
+         System.out.println("Um comentario foi postado no Instagram");
     }
 
     @Override
     public void curtirPublicacao() {
-
+         System.out.println("Uma publicação foi curtida no Instagram");
     }
 
     @Override
