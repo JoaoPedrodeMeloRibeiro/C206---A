@@ -76,7 +76,7 @@ public class Arquivo {
                     aluno.setMedia(Float.parseFloat(br.readLine()));
                     aluno.setMatricula(Integer.parseInt(br.readLine()));
 
-                    // Adicionando o funcionario no array
+                    // Adicionando o aluno no array
                     encontreiNoArquivo.add(aluno);
                 }
                 linhaLer = br.readLine();
